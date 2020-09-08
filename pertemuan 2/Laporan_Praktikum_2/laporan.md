@@ -11,7 +11,7 @@
 
 ## program class Peminjaman (tugas no.2)
 contoh output :
-<img src="peminjaman.jpg">
+<img src="peminjaman.png">
 
 keterangan : totalHarga dihasilkan pada method hitungHarga yang menggunakan parameter berupa harga sewa per jam dan lama sewa. kemudian kedua parameter tersebut dikalikan.
 
@@ -20,7 +20,7 @@ keterangan : totalHarga dihasilkan pada method hitungHarga yang menggunakan para
 -method : hitungLuas dan hitungKeliling.
 
 contoh output :
-<img src="lingkaran.jpg">
+<img src="lingkaran.png">
 
 Keterangan : kedua method menggunakan tipe data double sehingga membutuhkan nilai kembalian, dan nilai kembalian itulah yang berupa keliling dan luas lingkaran. keliling dihasilkan dari rumus phi * 2 * r. sedangkan Luas dihasilkan dari phi * r * r.
 
@@ -29,6 +29,6 @@ Keterangan : kedua method menggunakan tipe data double sehingga membutuhkan nila
 -method : hitungHargaJual() dan tampilData()
 
 contoh output :
-<img src="barang.jpg">
+<img src="barang.png">
 
 Keterangan : method hitungHargaJual dibuat dengan tipe data integer yang nantinya nilai kembaliannya berupa harga jual. untuk konversi harga jual, dihasilkan dari perhitungan hargaDasar - ((diskon/100) * hargaDasar)
