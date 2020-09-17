@@ -3,7 +3,7 @@
 ## Percobaan 1
 output :
 
-<img src="Percobaan1.png">
+<img src="percobaan1.png">
 
 ## percobaan 2
 output :
@@ -26,11 +26,11 @@ Agar hanya bisa diakses dalam class motor. Dan pada class MotorDemo atribut-atri
 3. Ubah class Motor sehingga kecepatan maksimalnya adalah 100!
 
 source code :
-<img src="percobaan2_main.png">
-<img src="percobaan2_code.png">
+<img src="pertanyaan2_main.png">
+<img src="pertanyaan2_code.png">
 
 output :
-<img src="percobaan2_output.png">
+<img src="pertanyaan2_output.png">
 
 ## percobaan 3
 output :

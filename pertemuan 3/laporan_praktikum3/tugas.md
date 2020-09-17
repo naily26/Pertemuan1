@@ -15,7 +15,7 @@ source code :
 
 
 output :
-<img src="tugas_output">
+<img src="tugas_output.png">
 
 4. 
 output :
