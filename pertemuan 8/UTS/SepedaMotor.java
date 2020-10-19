@@ -8,18 +8,13 @@
  *
  * @author HP
  */
-public class SepedaMotor {
+public class SepedaMotor extends Mesin{
    private Mesin mesin;
    private String merkMotor;
 
     public SepedaMotor(String merkMotor, String merkMesin) {
         this.merkMotor = merkMotor;
-        this.mesin.setMerk(merkMesin);
-    }
-
-    public SepedaMotor(Mesin mesin, String merkMotor) {
-        this.mesin = mesin;
-        this.merkMotor = merkMotor;
+        super.setMerk(merkMesin);
     }
 
     public String getMerkMotor() {
@@ -31,27 +26,27 @@ public class SepedaMotor {
     }
    
    public String getMerkMesin() {
-        return mesin.getMerk();
+        return super.getMerk();
     }
    public void tambahKecepatanMotor(){
        String mk =getMerkMesin();
        if (mk.equalsIgnoreCase("Honda")){
            System.out.println();
-           mesin.tambahkecepatan(10);
+           super.tambahkecepatan(10);
        }
        else if (mk.equalsIgnoreCase("Yamaha")){
-           mesin.tambahkecepatan(15);
+           super.tambahkecepatan(15);
        }
-       System.out.println(mesin.getKecepatan()+"Km/jam");
+       System.out.println(super.getKecepatan()+"Km/jam");
    }
    public void kurangiKecepatanMotor(){
        String mk =getMerkMesin();
        if (mk.equalsIgnoreCase("Honda")){
-           mesin.kurangiKecepatan(5);
+           super.kurangiKecepatan(5);
        }
        else if (mk.equalsIgnoreCase("Yamaha")){
-           mesin.kurangiKecepatan(10);
+           super.kurangiKecepatan(10);
        }
-       System.out.println(mesin.getKecepatan()+"Km/jam");
+       System.out.println(super.getKecepatan()+"Km/jam");
    }
 }

@@ -9,15 +9,16 @@
  * @author HP
  */
 public class DemoKuis {
-    public static void main(String[] args) {       
-        SepedaMotor honda = new SepedaMotor("Vario","Honda");
+    public static void main(String[] args) {
+
+        SepedaMotor honda = new SepedaMotor("vario", "honda");
         System.out.println(honda.getMerkMotor());
         System.out.println(honda.getMerkMesin());
         honda.tambahKecepatanMotor();
         honda.tambahKecepatanMotor();
         honda.kurangiKecepatanMotor();
         
-        System.out.println();
+
         SepedaMotor yamaha = new SepedaMotor("NMax", "Yamaha");
         System.out.println(yamaha.getMerkMotor());
         System.out.println(yamaha.getMerkMesin());

@@ -9,7 +9,7 @@
  * @author HP
  */
 public class Mesin {
-    public String merk;
+    private String merk;
     private double kecepatan;
 
     public Mesin() {
@@ -32,9 +32,11 @@ public class Mesin {
     }
     
     public void tambahkecepatan(double a){
+        if (kecepatan <= 100)
         kecepatan += a;
     }
     public void kurangiKecepatan(double a){
+        if (kecepatan >= 0)
         kecepatan -=a;
     }
 }
